@@ -5,13 +5,6 @@ We wouldn't normally expect you to need to install from source, and this code is
 
 You need an API key from llmcosts.fyi. Reference code, prepopulated with your API key is available to users of that site, but the quick version is here.
 
-Keys
-You don't have any keys created, so you'll have the replace the text "Your Key Here" with your llmcosts API key.
-
-
-If you create a key now, we'll update the code below next time you load this page.
-
-
 ### Using with the OpenAI client:
 
 ```diff
