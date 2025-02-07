@@ -1,0 +1,8 @@
+{
+    "name": "llmcosts/LLMCostLogger",
+    "description": "Reference code to log LLM Call metadata to the llmcosts.fyi service",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.0",
+    }
+}
