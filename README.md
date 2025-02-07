@@ -5,4 +5,3 @@ We wouldn't normally expect you to need to install from source, and this code is
 
 It contains classes in multiple languages.
 - PHP
-- Python
