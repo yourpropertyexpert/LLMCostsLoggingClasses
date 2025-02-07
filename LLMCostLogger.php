@@ -3,7 +3,7 @@
 /**
  * LLMCostLogger class
  * @copyright Mark Harrison 2025
- * @package LLMCosts
+ * @package llmcosts/llm-cost-logger
  */
 
 namespace LLMCosts;
