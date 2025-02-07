@@ -5,6 +5,8 @@ We wouldn't normally expect you to need to install from source, and this code is
 
 You need an API key from llmcosts.fyi. Reference code, prepopulated with your API key is available to users of that site, but the quick version is here.
 
+For use with other clients, you will also need to replace the name "OpenAI" in the ->logCall function with a provider supported by the service.
+
 ### Using with the OpenAI client:
 
 ```diff
@@ -22,8 +24,8 @@ $resultArray = $result->toArray();
 
 /**
  * The two lines you need to add logging
- * The <provider> can be anything, but the following values allow us to properly determine token usage
+ * The <provider> can be anything, but see above
  */
 + $costLogger = new LLMCostLogger("{{key}}");
-+ $costLogger->logCall("<provider>", $resultArray);
++ $costLogger->logCall("OpenAI", $resultArray);
 ```
