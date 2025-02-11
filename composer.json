@@ -1,6 +1,7 @@
 {
     "name": "llmcosts/llm-cost-logger",
     "description": "Reference code to log LLM Call metadata to the llmcosts.fyi service",
+    "license": "LGPL-2.1-only",
     "require": {
         "php": ">=8.2",
         "guzzlehttp/guzzle": "^7.0"
