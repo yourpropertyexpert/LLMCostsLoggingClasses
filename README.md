@@ -7,6 +7,15 @@ You need an API key from llmcosts.fyi. Reference code, prepopulated with your AP
 
 For use with other clients, you will also need to replace the name "OpenAI" in the ->logCall function with a provider supported by the service.
 
+### Installation
+
+The best way is to install via Composer, by adding to the "require" section of your composer.json file
+
+```
+{... other requirements ...}
+"llmcosts/llm-cost-logger": "1.0.0"
+```
+
 ### Using with the OpenAI client:
 
 ```diff
