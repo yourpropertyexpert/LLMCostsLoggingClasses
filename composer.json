@@ -5,5 +5,10 @@
     "require": {
         "php": ">=8.2",
         "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LLMCosts\\": "src/"
+        }
     }
 }
