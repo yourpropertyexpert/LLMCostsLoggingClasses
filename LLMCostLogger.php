@@ -6,7 +6,7 @@
  * @package llmcosts/llm-cost-logger
  */
 
-namespace llmcosts;
+namespace LLMCosts\LLMCostLogger;
 
 
 class LLMCostLogger
